@@ -1,12 +1,27 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Laravel - Unittesting
 
-## About Laravel
+Ini adalah program laravel unittesting, program ini bertujuan untuk mengecek data dari sisi backend. Dengan menggunakan test bawaan laravel yaitu 'Feature' dan library eksternal yaitu "PHPUnit".
+Keduanya memiliki fungsi dan kerja yang sama.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Installation
+<p>$ cd /var/www/html</p>
+<p>$ git clone https://github.com/Dstar18/laravel-unittesting.git</p>
+
+## Create File
+<p>create file feature</p>
+<p>$ php artisan make:test {namafile}</p>
+
+<p>create file phpunit</p>
+<p>$ php artisan make:test {namafile} --unit</p>
+
+## Running Test
+<p>running all test</p>
+<p>$ php artisan test</p>
+
+<p>running by function test feature</p>
+<p>$ vendor/bin/phpunit tests/Feature/{namafile}.php –filter {namafunction}</p>
+
+<p>running by function test phpunit</p>
+<p>$ vendor/bin/phpunit tests/Unit/{namafile}.php –filter {namafunction}</p>
