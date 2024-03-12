@@ -2,7 +2,7 @@
 
 ## Laravel - Unittesting
 
-Ini adalah program laravel unittesting, program ini bertujuan untuk mengecek data dari sisi backend. Dengan menggunakan test bawaan laravel yaitu 'Feature' dan library eksternal yaitu "PHPUnit".
+Ini adalah program laravel unittesting, program ini bertujuan untuk mengecek data dari sisi backend. Dengan menggunakan test bawaan laravel yaitu 'Feature' atau library eksternal yaitu "PHPUnit".
 Keduanya memiliki fungsi dan kerja yang sama.
 
 ## Installation
